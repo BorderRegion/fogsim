@@ -1,0 +1,60 @@
+{
+  "format": "fogsim.delivery-parts",
+  "schema_version": 1,
+  "batch": "S9-B04",
+  "packages": [
+    {
+      "file": "fogsim-0.4.0-B04.zip",
+      "part": "main",
+      "bytes": 13638467,
+      "sha256": "050625603620be9f181d35287f24a897a523c671491088529c79336d6cae4daa",
+      "files": 577,
+      "purpose": "cumulative code, cases, contracts, manual and final summary",
+      "required_for_basic_use": true,
+      "required_for_offline_training": true,
+      "required_for_complete_review": true
+    },
+    {
+      "file": "fogsim-0.4.0-B04-evidence.zip",
+      "part": "evidence",
+      "bytes": 173818888,
+      "sha256": "fea0957d575571436c28364358783701ee96111254626ca56a655887772ca697",
+      "files": 42867,
+      "purpose": "original current/historical results, inputs, failures, Java outputs",
+      "required_for_basic_use": false,
+      "required_for_offline_training": false,
+      "required_for_complete_review": true
+    },
+    {
+      "file": "fogsim-0.4.0-B04-references.zip",
+      "part": "references",
+      "bytes": 94738780,
+      "sha256": "10b01496e782750a0943c50891123e432f5967fcd6a15cb97a6f48f92b319f08",
+      "files": 3400,
+      "purpose": "restored pinned sources and offline dependency wheels",
+      "required_for_basic_use": false,
+      "required_for_offline_training": true,
+      "required_for_complete_review": true
+    },
+    {
+      "file": "fogsim-0.4.0-B04-rollback.zip",
+      "part": "rollback",
+      "bytes": 341379178,
+      "sha256": "0da0193a1fc95a8d1e2fe8c7f7af34c2b761eea1528185006e0dc6055fa9cae9",
+      "files": 13,
+      "purpose": "unchanged prior S9 deliveries",
+      "required_for_basic_use": false,
+      "required_for_offline_training": false,
+      "required_for_complete_review": true
+    }
+  ],
+  "extraction_order": [
+    "fogsim-0.4.0-B04.zip",
+    "fogsim-0.4.0-B04-evidence.zip",
+    "fogsim-0.4.0-B04-references.zip",
+    "fogsim-0.4.0-B04-rollback.zip"
+  ],
+  "target": "same new parent directory; all archives contain fogsim-0.4.0/",
+  "disjoint_file_paths": true,
+  "external_environment": "JDK17 required for Java checks, not bundled; CPython3.12/Linux x86_64 offline wheels"
+}
