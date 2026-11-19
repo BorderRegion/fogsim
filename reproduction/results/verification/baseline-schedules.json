@@ -1,0 +1,58 @@
+[
+  {
+    "method": "FCFS",
+    "passed": true,
+    "tasks": 113,
+    "events": 343,
+    "python_makespan": 4599.369994291814,
+    "java_makespan": 4599.369994291814
+  },
+  {
+    "method": "MaxMin",
+    "passed": true,
+    "tasks": 113,
+    "events": 343,
+    "python_makespan": 4871.983748839546,
+    "java_makespan": 4871.983748839546
+  },
+  {
+    "method": "MinMin",
+    "passed": true,
+    "tasks": 113,
+    "events": 343,
+    "python_makespan": 4968.25237180874,
+    "java_makespan": 4968.25237180874
+  },
+  {
+    "method": "HEFT",
+    "passed": true,
+    "tasks": 113,
+    "events": 343,
+    "python_makespan": 5042.395593601495,
+    "java_makespan": 5042.395593601495
+  },
+  {
+    "method": "SDLS",
+    "passed": true,
+    "tasks": 113,
+    "events": 343,
+    "python_makespan": 5608.001860010325,
+    "java_makespan": 5608.001860010325
+  },
+  {
+    "method": "BWAWA",
+    "passed": true,
+    "tasks": 113,
+    "events": 343,
+    "python_makespan": 4773.527507892145,
+    "java_makespan": 4773.527507892145
+  },
+  {
+    "method": "CEAS",
+    "passed": true,
+    "tasks": 113,
+    "events": 343,
+    "python_makespan": 4773.527507892145,
+    "java_makespan": 4773.527507892145
+  }
+]

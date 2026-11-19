@@ -1,0 +1,74 @@
+{
+  "scale": "large",
+  "devices": 1,
+  "trial": 2,
+  "evolution_seed": 50002,
+  "population": 8,
+  "generations": 3,
+  "elites": 1,
+  "history": [
+    {
+      "generation": 0,
+      "instance_seed": 1100000,
+      "best": [
+        "(- WIQ WIQ)",
+        "(/ (Max (+ (* (Max TTIQ MRT) (* PT WIQ)) (Max (Min WIQ TTIQ) (- NIQ UT))) (Min (+ (* MRT UT) (Min PT NTR)) (- (- MRT DT) (* PT TTIQ)))) (+ (Max (+ (Max UT TIS) (Max TIS UT)) (- (* WIQ WIQ) (- WIQ WIQ))) (Max (* (* PT TWT) (Max NIQ TWT)) (* (Min TTIQ NTR) (/ WIQ UT)))))"
+      ],
+      "makespan": 9416.567170976494,
+      "unique": 8
+    },
+    {
+      "generation": 1,
+      "instance_seed": 1100001,
+      "best": [
+        "(- WIQ WIQ)",
+        "(/ (Max (+ (* (Max TTIQ MRT) (* PT WIQ)) (Max (Min WIQ TTIQ) (- NIQ UT))) (Min (+ (* MRT UT) (Min PT NTR)) (- (- MRT DT) (* PT TTIQ)))) (+ (Max (+ (Max UT TIS) (Max TIS UT)) (- (* WIQ WIQ) (- WIQ WIQ))) (Max (* (* PT TWT) (Max NIQ TWT)) (* (Min TTIQ NTR) (/ WIQ UT)))))"
+      ],
+      "makespan": 6946.606978845695,
+      "unique": 8
+    },
+    {
+      "generation": 2,
+      "instance_seed": 1100002,
+      "best": [
+        "(+ (Min MRT (- WIQ WIQ)) (Min (Min DT TWT) (Min MRT NIQ)))",
+        "(/ (Max (+ (* (Max TTIQ MRT) (* PT WIQ)) (Max (Min WIQ TTIQ) (- NIQ UT))) (Min (+ (* MRT UT) (Min PT NTR)) (- (- MRT DT) (- MRT DT)))) (+ (Max (+ (Max UT TIS) (Max TIS UT)) (- (* (* (* MRT MRT) DT) (- (- PT NTR) (Min TTIQ UT))) (- WIQ WIQ))) (Max (* (* PT TWT) (Max NIQ TWT)) (* (Min TTIQ NTR) (/ WIQ UT)))))"
+      ],
+      "makespan": 7332.866513318447,
+      "unique": 7
+    }
+  ],
+  "validation_seeds": [
+    80000,
+    80001,
+    80002
+  ],
+  "validation": [
+    {
+      "pair": [
+        "(- WIQ WIQ)",
+        "(/ (Max (+ (* (Max TTIQ MRT) (* PT WIQ)) (Max (Min WIQ TTIQ) (- NIQ UT))) (Min (+ (* MRT UT) (Min PT NTR)) (- (- MRT DT) (* PT TTIQ)))) (+ (Max (+ (Max UT TIS) (Max TIS UT)) (- (* WIQ WIQ) (- WIQ WIQ))) (Max (* (* PT TWT) (Max NIQ TWT)) (* (Min TTIQ NTR) (/ WIQ UT)))))"
+      ],
+      "makespans": [
+        10525.790419691302,
+        8958.979958859723,
+        13647.513425736612
+      ]
+    },
+    {
+      "pair": [
+        "(+ (Min MRT (- WIQ WIQ)) (Min (Min DT TWT) (Min MRT NIQ)))",
+        "(/ (Max (+ (* (Max TTIQ MRT) (* PT WIQ)) (Max (Min WIQ TTIQ) (- NIQ UT))) (Min (+ (* MRT UT) (Min PT NTR)) (- (- MRT DT) (- MRT DT)))) (+ (Max (+ (Max UT TIS) (Max TIS UT)) (- (* (* (* MRT MRT) DT) (- (- PT NTR) (Min TTIQ UT))) (- WIQ WIQ))) (Max (* (* PT TWT) (Max NIQ TWT)) (* (Min TTIQ NTR) (/ WIQ UT)))))"
+      ],
+      "makespans": [
+        7806.628473155306,
+        7370.983486855376,
+        7789.949406904174
+      ]
+    }
+  ],
+  "selected": {
+    "sequencing": "(+ (Min MRT (- WIQ WIQ)) (Min (Min DT TWT) (Min MRT NIQ)))",
+    "routing": "(/ (Max (+ (* (Max TTIQ MRT) (* PT WIQ)) (Max (Min WIQ TTIQ) (- NIQ UT))) (Min (+ (* MRT UT) (Min PT NTR)) (- (- MRT DT) (- MRT DT)))) (+ (Max (+ (Max UT TIS) (Max TIS UT)) (- (* (* (* MRT MRT) DT) (- (- PT NTR) (Min TTIQ UT))) (- WIQ WIQ))) (Max (* (* PT TWT) (Max NIQ TWT)) (* (Min TTIQ NTR) (/ WIQ UT)))))"
+  }
+}

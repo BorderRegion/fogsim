@@ -1,0 +1,63 @@
+{
+  "scale": "medium",
+  "devices": 1,
+  "trial": 1,
+  "evolution_seed": 50001,
+  "population": 8,
+  "generations": 3,
+  "elites": 1,
+  "history": [
+    {
+      "generation": 0,
+      "instance_seed": 1000000,
+      "best": [
+        "(- (+ DT PT) (Min MRT DT))",
+        "(Max TTIQ TIS)"
+      ],
+      "makespan": 14840.782195809326,
+      "unique": 8
+    },
+    {
+      "generation": 1,
+      "instance_seed": 1000001,
+      "best": [
+        "(- (+ DT PT) (Min MRT DT))",
+        "(Max TTIQ TIS)"
+      ],
+      "makespan": 15330.72422731652,
+      "unique": 8
+    },
+    {
+      "generation": 2,
+      "instance_seed": 1000002,
+      "best": [
+        "(- (+ DT PT) (Min MRT DT))",
+        "(Max TTIQ TIS)"
+      ],
+      "makespan": 15704.308605345497,
+      "unique": 5
+    }
+  ],
+  "validation_seeds": [
+    80000,
+    80001,
+    80002
+  ],
+  "validation": [
+    {
+      "pair": [
+        "(- (+ DT PT) (Min MRT DT))",
+        "(Max TTIQ TIS)"
+      ],
+      "makespans": [
+        14701.342761486849,
+        14515.793804176581,
+        19352.875535744723
+      ]
+    }
+  ],
+  "selected": {
+    "sequencing": "(- (+ DT PT) (Min MRT DT))",
+    "routing": "(Max TTIQ TIS)"
+  }
+}

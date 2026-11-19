@@ -1,0 +1,85 @@
+{
+  "scale": "medium",
+  "devices": 2,
+  "trial": 1,
+  "evolution_seed": 50001,
+  "population": 8,
+  "generations": 3,
+  "elites": 1,
+  "history": [
+    {
+      "generation": 0,
+      "instance_seed": 1000000,
+      "best": [
+        "(/ (+ (* (/ NTR TTIQ) (* MRT NIQ)) (Min (Min DT DT) (/ TIS TTIQ))) (Max (* (Max PT MRT) (* UT UT)) (- (Max TWT NIQ) (* DT TWT))))",
+        "(* NIQ TWT)"
+      ],
+      "makespan": 9092.609420081275,
+      "unique": 8
+    },
+    {
+      "generation": 1,
+      "instance_seed": 1000001,
+      "best": [
+        "(/ (+ (* (/ (Min MRT DT) TTIQ) (* MRT NIQ)) (Min (Min DT DT) (/ TIS TTIQ))) (Max (* (Max PT MRT) (* UT UT)) (- (Max TWT NIQ) (* DT TWT))))",
+        "(Max TTIQ TIS)"
+      ],
+      "makespan": 11827.209009134931,
+      "unique": 8
+    },
+    {
+      "generation": 2,
+      "instance_seed": 1000002,
+      "best": [
+        "(- (Max (/ (+ TTIQ UT) (* DT TTIQ)) (Min (Max TTIQ TTIQ) (Max UT DT))) (Min MRT DT))",
+        "(* NIQ (Max TTIQ TIS))"
+      ],
+      "makespan": 3686.3295439250037,
+      "unique": 5
+    }
+  ],
+  "validation_seeds": [
+    80000,
+    80001,
+    80002
+  ],
+  "validation": [
+    {
+      "pair": [
+        "(/ (+ (* (/ NTR TTIQ) (* MRT NIQ)) (Min (Min DT DT) (/ TIS TTIQ))) (Max (* (Max PT MRT) (* UT UT)) (- (Max TWT NIQ) (* DT TWT))))",
+        "(* NIQ TWT)"
+      ],
+      "makespans": [
+        9869.481129789852,
+        24350.5317661246,
+        12452.191046863833
+      ]
+    },
+    {
+      "pair": [
+        "(/ (+ (* (/ (Min MRT DT) TTIQ) (* MRT NIQ)) (Min (Min DT DT) (/ TIS TTIQ))) (Max (* (Max PT MRT) (* UT UT)) (- (Max TWT NIQ) (* DT TWT))))",
+        "(Max TTIQ TIS)"
+      ],
+      "makespans": [
+        16288.028111521324,
+        17711.564071127454,
+        13819.419163938075
+      ]
+    },
+    {
+      "pair": [
+        "(- (Max (/ (+ TTIQ UT) (* DT TTIQ)) (Min (Max TTIQ TTIQ) (Max UT DT))) (Min MRT DT))",
+        "(* NIQ (Max TTIQ TIS))"
+      ],
+      "makespans": [
+        4336.987263092116,
+        3312.5509605824627,
+        3581.039998070245
+      ]
+    }
+  ],
+  "selected": {
+    "sequencing": "(- (Max (/ (+ TTIQ UT) (* DT TTIQ)) (Min (Max TTIQ TTIQ) (Max UT DT))) (Min MRT DT))",
+    "routing": "(* NIQ (Max TTIQ TIS))"
+  }
+}

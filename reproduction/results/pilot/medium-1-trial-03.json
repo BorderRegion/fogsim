@@ -1,0 +1,85 @@
+{
+  "scale": "medium",
+  "devices": 1,
+  "trial": 3,
+  "evolution_seed": 50003,
+  "population": 8,
+  "generations": 3,
+  "elites": 1,
+  "history": [
+    {
+      "generation": 0,
+      "instance_seed": 1200000,
+      "best": [
+        "(Min NTR DT)",
+        "(- TTIQ TIS)"
+      ],
+      "makespan": 4180.487819244141,
+      "unique": 8
+    },
+    {
+      "generation": 1,
+      "instance_seed": 1200001,
+      "best": [
+        "(+ (- NIQ (- (* TWT DT) (+ PT TTIQ))) (Min (/ (* TTIQ TWT) (/ TWT TIS)) (* (* TTIQ NIQ) (- PT UT))))",
+        "TTIQ"
+      ],
+      "makespan": 3899.395669373959,
+      "unique": 7
+    },
+    {
+      "generation": 2,
+      "instance_seed": 1200002,
+      "best": [
+        "(Max (/ NIQ (* (Min (Min TWT TTIQ) (- TTIQ DT)) (- (Min PT MRT) WIQ))) (/ (Min NTR DT) UT))",
+        "(- TTIQ TIS)"
+      ],
+      "makespan": 3716.2593794910945,
+      "unique": 5
+    }
+  ],
+  "validation_seeds": [
+    80000,
+    80001,
+    80002
+  ],
+  "validation": [
+    {
+      "pair": [
+        "(Min NTR DT)",
+        "(- TTIQ TIS)"
+      ],
+      "makespans": [
+        4944.891993994024,
+        5628.8147148353655,
+        4455.53511160872
+      ]
+    },
+    {
+      "pair": [
+        "(+ (- NIQ (- (* TWT DT) (+ PT TTIQ))) (Min (/ (* TTIQ TWT) (/ TWT TIS)) (* (* TTIQ NIQ) (- PT UT))))",
+        "TTIQ"
+      ],
+      "makespans": [
+        4870.765842435973,
+        4999.398510107234,
+        4125.3958877546265
+      ]
+    },
+    {
+      "pair": [
+        "(Max (/ NIQ (* (Min (Min TWT TTIQ) (- TTIQ DT)) (- (Min PT MRT) WIQ))) (/ (Min NTR DT) UT))",
+        "(- TTIQ TIS)"
+      ],
+      "makespans": [
+        4192.594513307438,
+        4971.730488546116,
+        4324.964547034323
+      ]
+    }
+  ],
+  "selected": {
+    "sequencing": "(Max (/ NIQ (* (Min (Min TWT TTIQ) (- TTIQ DT)) (- (Min PT MRT) WIQ))) (/ (Min NTR DT) UT))",
+    "routing": "(- TTIQ TIS)"
+  }
+}

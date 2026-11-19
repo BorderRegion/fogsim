@@ -1,0 +1,93 @@
+[
+  {
+    "method": "FCFS",
+    "passed": true,
+    "tasks": 847,
+    "events": 2571,
+    "python_makespan": 6017.496632572388,
+    "java_makespan": 6017.496632572388,
+    "scale": "small",
+    "devices": 2,
+    "seed": 90000,
+    "java_measured_makespan": 5461.755145636872,
+    "python_csv_makespan": 5461.755145636872
+  },
+  {
+    "method": "MaxMin",
+    "passed": true,
+    "tasks": 847,
+    "events": 2571,
+    "python_makespan": 4639.389302171139,
+    "java_makespan": 4639.389302171139,
+    "scale": "small",
+    "devices": 2,
+    "seed": 90000,
+    "java_measured_makespan": 4083.647815235623,
+    "python_csv_makespan": 4083.647815235623
+  },
+  {
+    "method": "MinMin",
+    "passed": true,
+    "tasks": 847,
+    "events": 2571,
+    "python_makespan": 4566.816502363534,
+    "java_makespan": 4566.816502363534,
+    "scale": "small",
+    "devices": 2,
+    "seed": 90000,
+    "java_measured_makespan": 4011.0750154280177,
+    "python_csv_makespan": 4011.0750154280177
+  },
+  {
+    "method": "HEFT",
+    "passed": true,
+    "tasks": 847,
+    "events": 2571,
+    "python_makespan": 4369.020812331846,
+    "java_makespan": 4369.020812331846,
+    "scale": "small",
+    "devices": 2,
+    "seed": 90000,
+    "java_measured_makespan": 3813.27932539633,
+    "python_csv_makespan": 3813.27932539633
+  },
+  {
+    "method": "SDLS",
+    "passed": true,
+    "tasks": 847,
+    "events": 2571,
+    "python_makespan": 4121.958498780946,
+    "java_makespan": 4121.958498780946,
+    "scale": "small",
+    "devices": 2,
+    "seed": 90000,
+    "java_measured_makespan": 3512.211376060395,
+    "python_csv_makespan": 3512.211376060395
+  },
+  {
+    "method": "BWAWA",
+    "passed": true,
+    "tasks": 847,
+    "events": 2571,
+    "python_makespan": 33787.404030680766,
+    "java_makespan": 33787.404030680766,
+    "scale": "small",
+    "devices": 2,
+    "seed": 90000,
+    "java_measured_makespan": 33231.66254374525,
+    "python_csv_makespan": 33231.66254374525
+  },
+  {
+    "method": "CEAS",
+    "passed": true,
+    "tasks": 847,
+    "events": 2571,
+    "python_makespan": 33787.40403068076,
+    "java_makespan": 33787.40403068076,
+    "scale": "small",
+    "devices": 2,
+    "seed": 90000,
+    "java_measured_makespan": 33231.662543745246,
+    "python_csv_makespan": 33231.662543745246
+  }
+]

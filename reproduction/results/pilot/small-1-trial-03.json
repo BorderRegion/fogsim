@@ -1,0 +1,74 @@
+{
+  "scale": "small",
+  "devices": 1,
+  "trial": 3,
+  "evolution_seed": 50003,
+  "population": 8,
+  "generations": 3,
+  "elites": 1,
+  "history": [
+    {
+      "generation": 0,
+      "instance_seed": 1200000,
+      "best": [
+        "(* TWT DT)",
+        "TTIQ"
+      ],
+      "makespan": 2917.162672904825,
+      "unique": 8
+    },
+    {
+      "generation": 1,
+      "instance_seed": 1200001,
+      "best": [
+        "(Max (/ NIQ (* (Min (Min TWT TTIQ) (- TTIQ DT)) (- (Min PT MRT) WIQ))) (/ (* TWT DT) UT))",
+        "TTIQ"
+      ],
+      "makespan": 3144.0617333218734,
+      "unique": 7
+    },
+    {
+      "generation": 2,
+      "instance_seed": 1200002,
+      "best": [
+        "(Max (/ NIQ (* (Min (Min TWT TTIQ) (- TTIQ DT)) (- (Min PT MRT) WIQ))) (/ (* TWT DT) UT))",
+        "TTIQ"
+      ],
+      "makespan": 2696.036084304287,
+      "unique": 5
+    }
+  ],
+  "validation_seeds": [
+    80000,
+    80001,
+    80002
+  ],
+  "validation": [
+    {
+      "pair": [
+        "(* TWT DT)",
+        "TTIQ"
+      ],
+      "makespans": [
+        2843.495319359449,
+        3200.7735290614455,
+        2827.3716658665644
+      ]
+    },
+    {
+      "pair": [
+        "(Max (/ NIQ (* (Min (Min TWT TTIQ) (- TTIQ DT)) (- (Min PT MRT) WIQ))) (/ (* TWT DT) UT))",
+        "TTIQ"
+      ],
+      "makespans": [
+        2782.431817425731,
+        3385.6434537724645,
+        3126.404120936035
+      ]
+    }
+  ],
+  "selected": {
+    "sequencing": "(* TWT DT)",
+    "routing": "TTIQ"
+  }
+}

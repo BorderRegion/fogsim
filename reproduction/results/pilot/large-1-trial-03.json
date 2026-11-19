@@ -1,0 +1,74 @@
+{
+  "scale": "large",
+  "devices": 1,
+  "trial": 3,
+  "evolution_seed": 50003,
+  "population": 8,
+  "generations": 3,
+  "elites": 1,
+  "history": [
+    {
+      "generation": 0,
+      "instance_seed": 1200000,
+      "best": [
+        "(Min NTR DT)",
+        "(- TTIQ TIS)"
+      ],
+      "makespan": 6677.083625625292,
+      "unique": 8
+    },
+    {
+      "generation": 1,
+      "instance_seed": 1200001,
+      "best": [
+        "(* TWT DT)",
+        "TTIQ"
+      ],
+      "makespan": 7060.038079105615,
+      "unique": 7
+    },
+    {
+      "generation": 2,
+      "instance_seed": 1200002,
+      "best": [
+        "(Min NTR DT)",
+        "(- TTIQ TIS)"
+      ],
+      "makespan": 6778.516597127826,
+      "unique": 4
+    }
+  ],
+  "validation_seeds": [
+    80000,
+    80001,
+    80002
+  ],
+  "validation": [
+    {
+      "pair": [
+        "(Min NTR DT)",
+        "(- TTIQ TIS)"
+      ],
+      "makespans": [
+        8168.907174976135,
+        7316.921261446304,
+        7981.9277223469235
+      ]
+    },
+    {
+      "pair": [
+        "(* TWT DT)",
+        "TTIQ"
+      ],
+      "makespans": [
+        8123.986456252753,
+        8055.6673412224145,
+        8496.251825971762
+      ]
+    }
+  ],
+  "selected": {
+    "sequencing": "(Min NTR DT)",
+    "routing": "(- TTIQ TIS)"
+  }
+}

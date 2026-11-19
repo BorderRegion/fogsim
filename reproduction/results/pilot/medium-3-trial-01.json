@@ -1,0 +1,85 @@
+{
+  "scale": "medium",
+  "devices": 3,
+  "trial": 1,
+  "evolution_seed": 50001,
+  "population": 8,
+  "generations": 3,
+  "elites": 1,
+  "history": [
+    {
+      "generation": 0,
+      "instance_seed": 1000000,
+      "best": [
+        "(+ TWT TIS)",
+        "(Max (Min (+ (- (+ PT UT) (/ PT WIQ)) (Max (+ NIQ TIS) (- TTIQ WIQ))) (- (Max (* DT UT) (Min NIQ PT)) (Min (Min PT TIS) (Max PT TWT)))) (* (Max (Min (/ TTIQ NTR) (- TIS TTIQ)) (Min (/ TWT WIQ) (Min WIQ UT))) (+ (Min (Min TTIQ NTR) (Max TWT PT)) (Max (/ WIQ PT) (Min DT NTR)))))"
+      ],
+      "makespan": 10506.012965362408,
+      "unique": 8
+    },
+    {
+      "generation": 1,
+      "instance_seed": 1000001,
+      "best": [
+        "(/ (+ (* (/ (Min MRT DT) TTIQ) (* MRT NIQ)) (Min (Min DT DT) (/ TIS TTIQ))) (Max (* (Max PT MRT) (* UT UT)) (- (Max TWT NIQ) (* DT TWT))))",
+        "(Max TTIQ TIS)"
+      ],
+      "makespan": 11879.882300319452,
+      "unique": 8
+    },
+    {
+      "generation": 2,
+      "instance_seed": 1000002,
+      "best": [
+        "(/ (Min MRT DT) TTIQ)",
+        "(Max TTIQ TIS)"
+      ],
+      "makespan": 11237.092966922108,
+      "unique": 7
+    }
+  ],
+  "validation_seeds": [
+    80000,
+    80001,
+    80002
+  ],
+  "validation": [
+    {
+      "pair": [
+        "(+ TWT TIS)",
+        "(Max (Min (+ (- (+ PT UT) (/ PT WIQ)) (Max (+ NIQ TIS) (- TTIQ WIQ))) (- (Max (* DT UT) (Min NIQ PT)) (Min (Min PT TIS) (Max PT TWT)))) (* (Max (Min (/ TTIQ NTR) (- TIS TTIQ)) (Min (/ TWT WIQ) (Min WIQ UT))) (+ (Min (Min TTIQ NTR) (Max TWT PT)) (Max (/ WIQ PT) (Min DT NTR)))))"
+      ],
+      "makespans": [
+        18349.83832322217,
+        13048.702774052497,
+        13983.9773830443
+      ]
+    },
+    {
+      "pair": [
+        "(/ (+ (* (/ (Min MRT DT) TTIQ) (* MRT NIQ)) (Min (Min DT DT) (/ TIS TTIQ))) (Max (* (Max PT MRT) (* UT UT)) (- (Max TWT NIQ) (* DT TWT))))",
+        "(Max TTIQ TIS)"
+      ],
+      "makespans": [
+        13388.084815471348,
+        14798.490316041185,
+        16059.441365952152
+      ]
+    },
+    {
+      "pair": [
+        "(/ (Min MRT DT) TTIQ)",
+        "(Max TTIQ TIS)"
+      ],
+      "makespans": [
+        14595.776383830787,
+        15012.392791539845,
+        13638.706835415916
+      ]
+    }
+  ],
+  "selected": {
+    "sequencing": "(/ (Min MRT DT) TTIQ)",
+    "routing": "(Max TTIQ TIS)"
+  }
+}
