@@ -1,0 +1,74 @@
+{
+  "scale": "small",
+  "devices": 3,
+  "trial": 1,
+  "search_seed": 50001,
+  "mtgp_reference": "pilot/small-3-trial-01.json",
+  "history": [
+    {
+      "generation": 0,
+      "instance_seed": 1000000,
+      "evaluated": 8,
+      "best": [
+        "(+ TWT TIS)",
+        "(Max (Min (+ (- (+ PT UT) (/ PT WIQ)) (Max (+ NIQ TIS) (- TTIQ WIQ))) (- (Max (* DT UT) (Min NIQ PT)) (Min (Min PT TIS) (Max PT TWT)))) (* (Max (Min (/ TTIQ NTR) (- TIS TTIQ)) (Min (/ TWT WIQ) (Min WIQ UT))) (+ (Min (Min TTIQ NTR) (Max TWT PT)) (Max (/ WIQ PT) (Min DT NTR)))))"
+      ],
+      "makespan": 4618.135040472165
+    },
+    {
+      "generation": 1,
+      "instance_seed": 1000001,
+      "evaluated": 8,
+      "best": [
+        "(* (- (- (Min TIS TTIQ) (Max WIQ UT)) (+ (Min DT NTR) (Min NTR TIS))) (+ (* (/ DT DT) (- TTIQ TIS)) (Max (Min DT NIQ) (Max TTIQ WIQ))))",
+        "(Max (- (- MRT NIQ) (- UT TTIQ)) (+ (Min MRT NIQ) (- PT DT)))"
+      ],
+      "makespan": 3534.61823480963
+    },
+    {
+      "generation": 2,
+      "instance_seed": 1000002,
+      "evaluated": 7,
+      "best": [
+        "DT",
+        "(Max (/ (- (Max UT NTR) (Max DT WIQ)) (Min (- NIQ NTR) (- WIQ DT))) (Max (- (* TTIQ TTIQ) (/ PT NTR)) (* (Min DT PT) (Min UT UT))))"
+      ],
+      "makespan": 2164.883385594406
+    }
+  ],
+  "validation_seeds": [
+    80000,
+    80001,
+    80002
+  ],
+  "validation": [
+    {
+      "pair": [
+        "DT",
+        "(Max (/ (- (Max UT NTR) (Max DT WIQ)) (Min (- NIQ NTR) (- WIQ DT))) (Max (- (* TTIQ TTIQ) (/ PT NTR)) (* (Min DT PT) (Min UT UT))))"
+      ],
+      "makespans": [
+        2360.8738001074867,
+        2489.1774773980565,
+        2336.886304547364
+      ]
+    },
+    {
+      "pair": [
+        "(* (- (- (Min TIS TTIQ) (Max WIQ UT)) (+ (Min DT NTR) (Min NTR TIS))) (+ (* (/ DT DT) (- TTIQ TIS)) (Max (Min DT NIQ) (Max TTIQ WIQ))))",
+        "(Max (- (- MRT NIQ) (- UT TTIQ)) (+ (Min MRT NIQ) (- PT DT)))"
+      ],
+      "makespans": [
+        3805.120613318906,
+        4644.902123676467,
+        3856.7928232174127
+      ]
+    }
+  ],
+  "selected": {
+    "sequencing": "DT",
+    "routing": "(Max (/ (- (Max UT NTR) (Max DT WIQ)) (Min (- NIQ NTR) (- WIQ DT))) (Max (- (* TTIQ TTIQ) (/ PT NTR)) (* (Min DT PT) (Min UT UT))))"
+  },
+  "training_calls": 23,
+  "validation_calls": 6
+}

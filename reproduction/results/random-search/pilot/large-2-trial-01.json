@@ -1,0 +1,85 @@
+{
+  "scale": "large",
+  "devices": 2,
+  "trial": 1,
+  "search_seed": 50001,
+  "mtgp_reference": "pilot/large-2-trial-01.json",
+  "history": [
+    {
+      "generation": 0,
+      "instance_seed": 1000000,
+      "evaluated": 8,
+      "best": [
+        "(- (+ DT PT) (Min MRT DT))",
+        "(Max TTIQ TIS)"
+      ],
+      "makespan": 21726.660567771854
+    },
+    {
+      "generation": 1,
+      "instance_seed": 1000001,
+      "evaluated": 8,
+      "best": [
+        "(* (- (- (Min TIS TTIQ) (Max WIQ UT)) (+ (Min DT NTR) (Min NTR TIS))) (+ (* (/ DT DT) (- TTIQ TIS)) (Max (Min DT NIQ) (Max TTIQ WIQ))))",
+        "(Max (- (- MRT NIQ) (- UT TTIQ)) (+ (Min MRT NIQ) (- PT DT)))"
+      ],
+      "makespan": 10111.208513436706
+    },
+    {
+      "generation": 2,
+      "instance_seed": 1000002,
+      "evaluated": 4,
+      "best": [
+        "(/ (Max (* WIQ MRT) (Min UT TIS)) (+ (+ MRT PT) (Max NIQ UT)))",
+        "(- WIQ (* (/ (/ (Min UT DT) (- NIQ TTIQ)) (/ (/ TIS TTIQ) (/ DT MRT))) (Min (Min (+ PT NIQ) (Max MRT NIQ)) (/ (Min TWT TWT) (/ UT TWT)))))"
+      ],
+      "makespan": 6178.681736473386
+    }
+  ],
+  "validation_seeds": [
+    80000,
+    80001,
+    80002
+  ],
+  "validation": [
+    {
+      "pair": [
+        "(/ (Max (* WIQ MRT) (Min UT TIS)) (+ (+ MRT PT) (Max NIQ UT)))",
+        "(- WIQ (* (/ (/ (Min UT DT) (- NIQ TTIQ)) (/ (/ TIS TTIQ) (/ DT MRT))) (Min (Min (+ PT NIQ) (Max MRT NIQ)) (/ (Min TWT TWT) (/ UT TWT)))))"
+      ],
+      "makespans": [
+        5628.886352078746,
+        5518.290083623359,
+        4377.324499569273
+      ]
+    },
+    {
+      "pair": [
+        "(* (- (- (Min TIS TTIQ) (Max WIQ UT)) (+ (Min DT NTR) (Min NTR TIS))) (+ (* (/ DT DT) (- TTIQ TIS)) (Max (Min DT NIQ) (Max TTIQ WIQ))))",
+        "(Max (- (- MRT NIQ) (- UT TTIQ)) (+ (Min MRT NIQ) (- PT DT)))"
+      ],
+      "makespans": [
+        10648.14847604792,
+        13655.188580518785,
+        8361.989085840556
+      ]
+    },
+    {
+      "pair": [
+        "(- (+ DT PT) (Min MRT DT))",
+        "(Max TTIQ TIS)"
+      ],
+      "makespans": [
+        25675.220978554637,
+        28538.48916790574,
+        21655.68175226032
+      ]
+    }
+  ],
+  "selected": {
+    "sequencing": "(/ (Max (* WIQ MRT) (Min UT TIS)) (+ (+ MRT PT) (Max NIQ UT)))",
+    "routing": "(- WIQ (* (/ (/ (Min UT DT) (- NIQ TTIQ)) (/ (/ TIS TTIQ) (/ DT MRT))) (Min (Min (+ PT NIQ) (Max MRT NIQ)) (/ (Min TWT TWT) (/ UT TWT)))))"
+  },
+  "training_calls": 20,
+  "validation_calls": 9
+}

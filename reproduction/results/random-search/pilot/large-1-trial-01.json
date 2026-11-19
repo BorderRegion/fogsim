@@ -1,0 +1,63 @@
+{
+  "scale": "large",
+  "devices": 1,
+  "trial": 1,
+  "search_seed": 50001,
+  "mtgp_reference": "pilot/large-1-trial-01.json",
+  "history": [
+    {
+      "generation": 0,
+      "instance_seed": 1000000,
+      "evaluated": 8,
+      "best": [
+        "(- (+ DT PT) (Min MRT DT))",
+        "(Max TTIQ TIS)"
+      ],
+      "makespan": 24881.57800299378
+    },
+    {
+      "generation": 1,
+      "instance_seed": 1000001,
+      "evaluated": 8,
+      "best": [
+        "(* (- (- (Min TIS TTIQ) (Max WIQ UT)) (+ (Min DT NTR) (Min NTR TIS))) (+ (* (/ DT DT) (- TTIQ TIS)) (Max (Min DT NIQ) (Max TTIQ WIQ))))",
+        "(Max (- (- MRT NIQ) (- UT TTIQ)) (+ (Min MRT NIQ) (- PT DT)))"
+      ],
+      "makespan": 10906.369576570909
+    },
+    {
+      "generation": 2,
+      "instance_seed": 1000002,
+      "evaluated": 5,
+      "best": [
+        "(Min TTIQ (* (* (Max PT UT) NTR) (/ (- NTR TIS) (+ TTIQ MRT))))",
+        "(+ (Min NTR MRT) (* NTR TTIQ))"
+      ],
+      "makespan": 8158.594251678407
+    }
+  ],
+  "validation_seeds": [
+    80000,
+    80001,
+    80002
+  ],
+  "validation": [
+    {
+      "pair": [
+        "(Min TTIQ (* (* (Max PT UT) NTR) (/ (- NTR TIS) (+ TTIQ MRT))))",
+        "(+ (Min NTR MRT) (* NTR TTIQ))"
+      ],
+      "makespans": [
+        9565.830019453577,
+        7238.009911944039,
+        7861.698437335517
+      ]
+    }
+  ],
+  "selected": {
+    "sequencing": "(Min TTIQ (* (* (Max PT UT) NTR) (/ (- NTR TIS) (+ TTIQ MRT))))",
+    "routing": "(+ (Min NTR MRT) (* NTR TTIQ))"
+  },
+  "training_calls": 21,
+  "validation_calls": 3
+}
