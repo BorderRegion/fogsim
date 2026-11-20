@@ -1,0 +1,130 @@
+[
+  {
+    "case": "v2_diamond",
+    "sequencing": "PT",
+    "routing": "MRT",
+    "passed": true,
+    "bitwise_score_checks": 24,
+    "events": 13
+  },
+  {
+    "case": "v2_diamond",
+    "sequencing": "(- 0 PT)",
+    "routing": "(+ (+ UT DT) (+ PT TTIQ))",
+    "passed": true,
+    "bitwise_score_checks": 24,
+    "events": 13
+  },
+  {
+    "case": "v2_diamond",
+    "sequencing": "(/ TIS TWT)",
+    "routing": "(Max (Min NIQ NTR) (* WIQ MRT))",
+    "passed": true,
+    "bitwise_score_checks": 24,
+    "events": 13
+  },
+  {
+    "case": "v2_diamond",
+    "sequencing": "(/ PT -0.0)",
+    "routing": "(Min -0.0 0.0)",
+    "passed": true,
+    "bitwise_score_checks": 24,
+    "events": 13
+  },
+  {
+    "case": "v2_shared_server",
+    "sequencing": "PT",
+    "routing": "MRT",
+    "passed": true,
+    "bitwise_score_checks": 24,
+    "events": 15
+  },
+  {
+    "case": "v2_shared_server",
+    "sequencing": "(- 0 PT)",
+    "routing": "(+ (+ UT DT) (+ PT TTIQ))",
+    "passed": true,
+    "bitwise_score_checks": 24,
+    "events": 15
+  },
+  {
+    "case": "v2_shared_server",
+    "sequencing": "(/ TIS TWT)",
+    "routing": "(Max (Min NIQ NTR) (* WIQ MRT))",
+    "passed": true,
+    "bitwise_score_checks": 24,
+    "events": 15
+  },
+  {
+    "case": "v2_shared_server",
+    "sequencing": "(/ PT -0.0)",
+    "routing": "(Min -0.0 0.0)",
+    "passed": true,
+    "bitwise_score_checks": 24,
+    "events": 15
+  },
+  {
+    "case": "v2_contention",
+    "sequencing": "PT",
+    "routing": "MRT",
+    "passed": true,
+    "bitwise_score_checks": 18,
+    "events": 12
+  },
+  {
+    "case": "v2_contention",
+    "sequencing": "(- 0 PT)",
+    "routing": "(+ (+ UT DT) (+ PT TTIQ))",
+    "passed": true,
+    "bitwise_score_checks": 18,
+    "events": 12
+  },
+  {
+    "case": "v2_contention",
+    "sequencing": "(/ TIS TWT)",
+    "routing": "(Max (Min NIQ NTR) (* WIQ MRT))",
+    "passed": true,
+    "bitwise_score_checks": 18,
+    "events": 12
+  },
+  {
+    "case": "v2_contention",
+    "sequencing": "(/ PT -0.0)",
+    "routing": "(Min -0.0 0.0)",
+    "passed": true,
+    "bitwise_score_checks": 18,
+    "events": 12
+  },
+  {
+    "case": "v2_order",
+    "sequencing": "PT",
+    "routing": "MRT",
+    "passed": true,
+    "bitwise_score_checks": 18,
+    "events": 12
+  },
+  {
+    "case": "v2_order",
+    "sequencing": "(- 0 PT)",
+    "routing": "(+ (+ UT DT) (+ PT TTIQ))",
+    "passed": true,
+    "bitwise_score_checks": 18,
+    "events": 12
+  },
+  {
+    "case": "v2_order",
+    "sequencing": "(/ TIS TWT)",
+    "routing": "(Max (Min NIQ NTR) (* WIQ MRT))",
+    "passed": true,
+    "bitwise_score_checks": 18,
+    "events": 12
+  },
+  {
+    "case": "v2_order",
+    "sequencing": "(/ PT -0.0)",
+    "routing": "(Min -0.0 0.0)",
+    "passed": true,
+    "bitwise_score_checks": 18,
+    "events": 12
+  }
+]

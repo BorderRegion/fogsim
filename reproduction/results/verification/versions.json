@@ -1,0 +1,25 @@
+{
+  "python": "3.12.16",
+  "platform": "Windows",
+  "arch": "AMD64",
+  "packages": {
+    "deap": "1.4.4",
+    "numpy": "2.5.4",
+    "moocore": "0.3.2",
+    "pytest": "9.2.0"
+  },
+  "java": {
+    "vendor": "Azul Systems, Inc.",
+    "runtime_version": "17.0.16+8-LTS",
+    "java_sha256": "6d751fbc5890a177b186dc4f231c1ba3084b367f4ffe8472855fd9fa15cc1dcc",
+    "priority_queue_source_sha256": "92f97c6625f4cd1994765acbd718e8a6f7c7697e5e65974a1d78d5e37e284ca8"
+  },
+  "upstream": "014834db234f377c14a0120a7da79bbcbc158e56",
+  "input_sha256": {
+    "Xu 等 - 2023 - Genetic Programming for Dynamic Workflow Scheduling in Fog Computing.zh-CN.dual.pdf": "0fe716a44ca8d63013406d641e0b7dea652dc17f23614554f86c30b9937a9305",
+    "Fog-Computing-multiDeviceDebug.zip": "17a273961e66f409c4cfc8305ee31433bf7022232da3a2cbd0cc8e70e4c32c9a",
+    "python实现/fogsim-0.4.0-B04.zip": "050625603620be9f181d35287f24a897a523c671491088529c79336d6cae4daa",
+    "python实现/fogsim-0.4.0-B04-references.zip": "10b01496e782750a0943c50891123e432f5967fcd6a15cb97a6f48f92b319f08"
+  },
+  "java_sources_matched_to_root_zip": 647
+}

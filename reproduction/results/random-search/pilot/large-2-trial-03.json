@@ -1,0 +1,74 @@
+{
+  "scale": "large",
+  "devices": 2,
+  "trial": 3,
+  "search_seed": 50003,
+  "mtgp_reference": "pilot/large-2-trial-03.json",
+  "history": [
+    {
+      "generation": 0,
+      "instance_seed": 1200000,
+      "evaluated": 8,
+      "best": [
+        "(* TWT DT)",
+        "TTIQ"
+      ],
+      "makespan": 5652.429841683877
+    },
+    {
+      "generation": 1,
+      "instance_seed": 1200001,
+      "evaluated": 7,
+      "best": [
+        "(/ TWT NIQ)",
+        "(- WIQ TIS)"
+      ],
+      "makespan": 5509.907317249432
+    },
+    {
+      "generation": 2,
+      "instance_seed": 1200002,
+      "evaluated": 4,
+      "best": [
+        "(/ (Max MRT PT) (* WIQ PT))",
+        "NIQ"
+      ],
+      "makespan": 6012.766599097078
+    }
+  ],
+  "validation_seeds": [
+    80000,
+    80001,
+    80002
+  ],
+  "validation": [
+    {
+      "pair": [
+        "(/ TWT NIQ)",
+        "(- WIQ TIS)"
+      ],
+      "makespans": [
+        6775.071339407195,
+        6240.476517498999,
+        4415.222463162894
+      ]
+    },
+    {
+      "pair": [
+        "(* TWT DT)",
+        "TTIQ"
+      ],
+      "makespans": [
+        6533.712755473929,
+        5437.869657271565,
+        4501.791431049181
+      ]
+    }
+  ],
+  "selected": {
+    "sequencing": "(* TWT DT)",
+    "routing": "TTIQ"
+  },
+  "training_calls": 19,
+  "validation_calls": 6
+}

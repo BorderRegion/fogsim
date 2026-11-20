@@ -1,0 +1,2647 @@
+{
+  "passed": true,
+  "executed": 38,
+  "checks": [
+    {
+      "case_id": "cross-000",
+      "passed": true,
+      "java": {
+        "children": [
+          {
+            "expressions": [
+              "(- DT MRT)",
+              "DT"
+            ],
+            "heights": [
+              1,
+              0
+            ],
+            "nodes": [
+              3,
+              1
+            ]
+          },
+          {
+            "expressions": [
+              "(+ PT UT)",
+              "PT"
+            ],
+            "heights": [
+              1,
+              0
+            ],
+            "nodes": [
+              3,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            true,
+            true
+          ]
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      },
+      "python": {
+        "children": [
+          {
+            "expressions": [
+              "(- DT MRT)",
+              "DT"
+            ],
+            "heights": [
+              1,
+              0
+            ],
+            "nodes": [
+              3,
+              1
+            ]
+          },
+          {
+            "expressions": [
+              "(+ PT UT)",
+              "PT"
+            ],
+            "heights": [
+              1,
+              0
+            ],
+            "nodes": [
+              3,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            true,
+            true
+          ]
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      }
+    },
+    {
+      "case_id": "cross-001",
+      "passed": true,
+      "java": {
+        "children": [
+          {
+            "expressions": [
+              "DT",
+              "DT"
+            ],
+            "heights": [
+              0,
+              0
+            ],
+            "nodes": [
+              1,
+              1
+            ]
+          },
+          {
+            "expressions": [
+              "(+ PT UT)",
+              "PT"
+            ],
+            "heights": [
+              1,
+              0
+            ],
+            "nodes": [
+              3,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            true,
+            false
+          ]
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      },
+      "python": {
+        "children": [
+          {
+            "expressions": [
+              "DT",
+              "DT"
+            ],
+            "heights": [
+              0,
+              0
+            ],
+            "nodes": [
+              1,
+              1
+            ]
+          },
+          {
+            "expressions": [
+              "(+ PT UT)",
+              "PT"
+            ],
+            "heights": [
+              1,
+              0
+            ],
+            "nodes": [
+              3,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            true,
+            false
+          ]
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      }
+    },
+    {
+      "case_id": "cross-002",
+      "passed": true,
+      "java": {
+        "children": [
+          {
+            "expressions": [
+              "(+ DT MRT)",
+              "DT"
+            ],
+            "heights": [
+              1,
+              0
+            ],
+            "nodes": [
+              3,
+              1
+            ]
+          },
+          {
+            "expressions": [
+              "PT",
+              "PT"
+            ],
+            "heights": [
+              0,
+              0
+            ],
+            "nodes": [
+              1,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            false,
+            true
+          ]
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      },
+      "python": {
+        "children": [
+          {
+            "expressions": [
+              "(+ DT MRT)",
+              "DT"
+            ],
+            "heights": [
+              1,
+              0
+            ],
+            "nodes": [
+              3,
+              1
+            ]
+          },
+          {
+            "expressions": [
+              "PT",
+              "PT"
+            ],
+            "heights": [
+              0,
+              0
+            ],
+            "nodes": [
+              1,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            false,
+            true
+          ]
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      }
+    },
+    {
+      "case_id": "cross-003",
+      "passed": true,
+      "java": {
+        "children": [
+          {
+            "expressions": [
+              "(+ (+ (+ (+ (+ (+ PT UT) UT) UT) UT) UT) (+ (+ (+ PT PT) (+ PT PT)) (+ (+ PT PT) (+ PT PT))))",
+              "DT"
+            ],
+            "heights": [
+              6,
+              0
+            ],
+            "nodes": [
+              27,
+              1
+            ]
+          },
+          {
+            "expressions": [
+              "(+ (+ (+ (+ (+ (+ (+ PT PT) (+ PT PT)) (+ (+ PT PT) (+ PT PT))) UT) UT) UT) UT)",
+              "PT"
+            ],
+            "heights": [
+              7,
+              0
+            ],
+            "nodes": [
+              23,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            false,
+            false
+          ]
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      },
+      "python": {
+        "children": [
+          {
+            "expressions": [
+              "(+ (+ (+ (+ (+ (+ PT UT) UT) UT) UT) UT) (+ (+ (+ PT PT) (+ PT PT)) (+ (+ PT PT) (+ PT PT))))",
+              "DT"
+            ],
+            "heights": [
+              6,
+              0
+            ],
+            "nodes": [
+              27,
+              1
+            ]
+          },
+          {
+            "expressions": [
+              "(+ (+ (+ (+ (+ (+ (+ PT PT) (+ PT PT)) (+ (+ PT PT) (+ PT PT))) UT) UT) UT) UT)",
+              "PT"
+            ],
+            "heights": [
+              7,
+              0
+            ],
+            "nodes": [
+              23,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            false,
+            false
+          ]
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      }
+    },
+    {
+      "case_id": "cross-004",
+      "passed": true,
+      "java": {
+        "children": [
+          {
+            "expressions": [
+              "(+ (- MRT NIQ) (* UT DT))",
+              "DT"
+            ],
+            "heights": [
+              2,
+              0
+            ],
+            "nodes": [
+              7,
+              1
+            ]
+          },
+          {
+            "expressions": [
+              "PT",
+              "PT"
+            ],
+            "heights": [
+              0,
+              0
+            ],
+            "nodes": [
+              1,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            true,
+            true
+          ]
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      },
+      "python": {
+        "children": [
+          {
+            "expressions": [
+              "(+ (- MRT NIQ) (* UT DT))",
+              "DT"
+            ],
+            "heights": [
+              2,
+              0
+            ],
+            "nodes": [
+              7,
+              1
+            ]
+          },
+          {
+            "expressions": [
+              "PT",
+              "PT"
+            ],
+            "heights": [
+              0,
+              0
+            ],
+            "nodes": [
+              1,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            true,
+            true
+          ]
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      }
+    },
+    {
+      "case_id": "cross-005",
+      "passed": true,
+      "java": {
+        "children": [
+          {
+            "expressions": [
+              "DT",
+              "DT"
+            ],
+            "heights": [
+              0,
+              0
+            ],
+            "nodes": [
+              1,
+              1
+            ]
+          },
+          {
+            "expressions": [
+              "(+ (+ (+ (+ (+ (+ (+ PT UT) UT) UT) UT) UT) UT) UT)",
+              "PT"
+            ],
+            "heights": [
+              7,
+              0
+            ],
+            "nodes": [
+              15,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            false,
+            true
+          ],
+          [
+            true,
+            false
+          ]
+        ],
+        "attempts": 2,
+        "parents_unchanged": true,
+        "disjoint": true
+      },
+      "python": {
+        "children": [
+          {
+            "expressions": [
+              "DT",
+              "DT"
+            ],
+            "heights": [
+              0,
+              0
+            ],
+            "nodes": [
+              1,
+              1
+            ]
+          },
+          {
+            "expressions": [
+              "(+ (+ (+ (+ (+ (+ (+ PT UT) UT) UT) UT) UT) UT) UT)",
+              "PT"
+            ],
+            "heights": [
+              7,
+              0
+            ],
+            "nodes": [
+              15,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            false,
+            true
+          ],
+          [
+            true,
+            false
+          ]
+        ],
+        "attempts": 2,
+        "parents_unchanged": true,
+        "disjoint": true
+      }
+    },
+    {
+      "case_id": "cross-006",
+      "passed": true,
+      "java": {
+        "children": [
+          {
+            "expressions": [
+              "(+ DT MRT)",
+              "DT"
+            ],
+            "heights": [
+              1,
+              0
+            ],
+            "nodes": [
+              3,
+              1
+            ]
+          },
+          {
+            "expressions": [
+              "(+ (+ (+ (+ (+ (+ (+ PT UT) UT) UT) UT) UT) UT) UT)",
+              "PT"
+            ],
+            "heights": [
+              7,
+              0
+            ],
+            "nodes": [
+              15,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            false,
+            true
+          ],
+          [
+            true,
+            true
+          ]
+        ],
+        "attempts": 2,
+        "parents_unchanged": true,
+        "disjoint": true
+      },
+      "python": {
+        "children": [
+          {
+            "expressions": [
+              "(+ DT MRT)",
+              "DT"
+            ],
+            "heights": [
+              1,
+              0
+            ],
+            "nodes": [
+              3,
+              1
+            ]
+          },
+          {
+            "expressions": [
+              "(+ (+ (+ (+ (+ (+ (+ PT UT) UT) UT) UT) UT) UT) UT)",
+              "PT"
+            ],
+            "heights": [
+              7,
+              0
+            ],
+            "nodes": [
+              15,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            false,
+            true
+          ],
+          [
+            true,
+            true
+          ]
+        ],
+        "attempts": 2,
+        "parents_unchanged": true,
+        "disjoint": true
+      }
+    },
+    {
+      "case_id": "cross-007",
+      "passed": true,
+      "java": {
+        "children": [
+          {
+            "expressions": [
+              "(+ DT MRT)",
+              "DT"
+            ],
+            "heights": [
+              1,
+              0
+            ],
+            "nodes": [
+              3,
+              1
+            ]
+          },
+          {
+            "expressions": [
+              "PT",
+              "PT"
+            ],
+            "heights": [
+              0,
+              0
+            ],
+            "nodes": [
+              1,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            false,
+            true
+          ],
+          [
+            false,
+            true
+          ]
+        ],
+        "attempts": 2,
+        "parents_unchanged": true,
+        "disjoint": true
+      },
+      "python": {
+        "children": [
+          {
+            "expressions": [
+              "(+ DT MRT)",
+              "DT"
+            ],
+            "heights": [
+              1,
+              0
+            ],
+            "nodes": [
+              3,
+              1
+            ]
+          },
+          {
+            "expressions": [
+              "PT",
+              "PT"
+            ],
+            "heights": [
+              0,
+              0
+            ],
+            "nodes": [
+              1,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            false,
+            true
+          ],
+          [
+            false,
+            true
+          ]
+        ],
+        "attempts": 2,
+        "parents_unchanged": true,
+        "disjoint": true
+      }
+    },
+    {
+      "case_id": "cross-008",
+      "passed": true,
+      "java": {
+        "children": [
+          {
+            "expressions": [
+              "DT",
+              "DT"
+            ],
+            "heights": [
+              0,
+              0
+            ],
+            "nodes": [
+              1,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            true
+          ]
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      },
+      "python": {
+        "children": [
+          {
+            "expressions": [
+              "DT",
+              "DT"
+            ],
+            "heights": [
+              0,
+              0
+            ],
+            "nodes": [
+              1,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            true
+          ]
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      }
+    },
+    {
+      "case_id": "cross-009",
+      "passed": true,
+      "java": {
+        "children": [
+          {
+            "expressions": [
+              "(+ DT MRT)",
+              "DT"
+            ],
+            "heights": [
+              1,
+              0
+            ],
+            "nodes": [
+              3,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            false
+          ],
+          [
+            false
+          ]
+        ],
+        "attempts": 2,
+        "parents_unchanged": true,
+        "disjoint": true
+      },
+      "python": {
+        "children": [
+          {
+            "expressions": [
+              "(+ DT MRT)",
+              "DT"
+            ],
+            "heights": [
+              1,
+              0
+            ],
+            "nodes": [
+              3,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            false
+          ],
+          [
+            false
+          ]
+        ],
+        "attempts": 2,
+        "parents_unchanged": true,
+        "disjoint": true
+      }
+    },
+    {
+      "case_id": "cross-010",
+      "passed": true,
+      "java": {
+        "children": [
+          {
+            "expressions": [
+              "(Max TIS NTR)",
+              "(Min NIQ WIQ)"
+            ],
+            "heights": [
+              1,
+              1
+            ],
+            "nodes": [
+              3,
+              3
+            ]
+          },
+          {
+            "expressions": [
+              "(+ PT UT)",
+              "(- DT MRT)"
+            ],
+            "heights": [
+              1,
+              1
+            ],
+            "nodes": [
+              3,
+              3
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            true,
+            true
+          ]
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      },
+      "python": {
+        "children": [
+          {
+            "expressions": [
+              "(Max TIS NTR)",
+              "(Min NIQ WIQ)"
+            ],
+            "heights": [
+              1,
+              1
+            ],
+            "nodes": [
+              3,
+              3
+            ]
+          },
+          {
+            "expressions": [
+              "(+ PT UT)",
+              "(- DT MRT)"
+            ],
+            "heights": [
+              1,
+              1
+            ],
+            "nodes": [
+              3,
+              3
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            true,
+            true
+          ]
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      }
+    },
+    {
+      "case_id": "mutation-011",
+      "passed": true,
+      "java": {
+        "children": [
+          {
+            "expressions": [
+              "DT",
+              "PT"
+            ],
+            "heights": [
+              0,
+              0
+            ],
+            "nodes": [
+              1,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          true
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      },
+      "python": {
+        "children": [
+          {
+            "expressions": [
+              "DT",
+              "PT"
+            ],
+            "heights": [
+              0,
+              0
+            ],
+            "nodes": [
+              1,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          true
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      }
+    },
+    {
+      "case_id": "mutation-012",
+      "passed": true,
+      "java": {
+        "children": [
+          {
+            "expressions": [
+              "(+ DT UT)",
+              "PT"
+            ],
+            "heights": [
+              1,
+              0
+            ],
+            "nodes": [
+              3,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          true
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      },
+      "python": {
+        "children": [
+          {
+            "expressions": [
+              "(+ DT UT)",
+              "PT"
+            ],
+            "heights": [
+              1,
+              0
+            ],
+            "nodes": [
+              3,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          true
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      }
+    },
+    {
+      "case_id": "mutation-013",
+      "passed": true,
+      "java": {
+        "children": [
+          {
+            "expressions": [
+              "(+ (+ DT UT) UT)",
+              "PT"
+            ],
+            "heights": [
+              2,
+              0
+            ],
+            "nodes": [
+              5,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          true
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      },
+      "python": {
+        "children": [
+          {
+            "expressions": [
+              "(+ (+ DT UT) UT)",
+              "PT"
+            ],
+            "heights": [
+              2,
+              0
+            ],
+            "nodes": [
+              5,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          true
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      }
+    },
+    {
+      "case_id": "mutation-014",
+      "passed": true,
+      "java": {
+        "children": [
+          {
+            "expressions": [
+              "(+ (+ (+ DT UT) UT) UT)",
+              "PT"
+            ],
+            "heights": [
+              3,
+              0
+            ],
+            "nodes": [
+              7,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          true
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      },
+      "python": {
+        "children": [
+          {
+            "expressions": [
+              "(+ (+ (+ DT UT) UT) UT)",
+              "PT"
+            ],
+            "heights": [
+              3,
+              0
+            ],
+            "nodes": [
+              7,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          true
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      }
+    },
+    {
+      "case_id": "mutation-015",
+      "passed": true,
+      "java": {
+        "children": [
+          {
+            "expressions": [
+              "(+ (+ (+ (+ (+ (+ (+ PT UT) UT) UT) UT) UT) UT) UT)",
+              "PT"
+            ],
+            "heights": [
+              7,
+              0
+            ],
+            "nodes": [
+              15,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          false
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      },
+      "python": {
+        "children": [
+          {
+            "expressions": [
+              "(+ (+ (+ (+ (+ (+ (+ PT UT) UT) UT) UT) UT) UT) UT)",
+              "PT"
+            ],
+            "heights": [
+              7,
+              0
+            ],
+            "nodes": [
+              15,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          false
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      }
+    },
+    {
+      "case_id": "mutation-016",
+      "passed": true,
+      "java": {
+        "children": [
+          {
+            "expressions": [
+              "(+ (+ (+ (+ (+ (+ (+ DT UT) UT) UT) UT) UT) UT) UT)",
+              "PT"
+            ],
+            "heights": [
+              7,
+              0
+            ],
+            "nodes": [
+              15,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          false,
+          true
+        ],
+        "attempts": 2,
+        "parents_unchanged": true,
+        "disjoint": true
+      },
+      "python": {
+        "children": [
+          {
+            "expressions": [
+              "(+ (+ (+ (+ (+ (+ (+ DT UT) UT) UT) UT) UT) UT) UT)",
+              "PT"
+            ],
+            "heights": [
+              7,
+              0
+            ],
+            "nodes": [
+              15,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          false,
+          true
+        ],
+        "attempts": 2,
+        "parents_unchanged": true,
+        "disjoint": true
+      }
+    },
+    {
+      "case_id": "mutation-017",
+      "passed": true,
+      "java": {
+        "children": [
+          {
+            "expressions": [
+              "(+ (+ (+ (+ (+ (+ (+ PT UT) UT) UT) UT) UT) UT) UT)",
+              "PT"
+            ],
+            "heights": [
+              7,
+              0
+            ],
+            "nodes": [
+              15,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          false,
+          false
+        ],
+        "attempts": 2,
+        "parents_unchanged": true,
+        "disjoint": true
+      },
+      "python": {
+        "children": [
+          {
+            "expressions": [
+              "(+ (+ (+ (+ (+ (+ (+ PT UT) UT) UT) UT) UT) UT) UT)",
+              "PT"
+            ],
+            "heights": [
+              7,
+              0
+            ],
+            "nodes": [
+              15,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          false,
+          false
+        ],
+        "attempts": 2,
+        "parents_unchanged": true,
+        "disjoint": true
+      }
+    },
+    {
+      "case_id": "cross-018",
+      "passed": true,
+      "java": {
+        "children": [
+          {
+            "expressions": [
+              "TIS",
+              "(- DT MRT)"
+            ],
+            "heights": [
+              0,
+              1
+            ],
+            "nodes": [
+              1,
+              3
+            ]
+          },
+          {
+            "expressions": [
+              "NIQ",
+              "(+ PT UT)"
+            ],
+            "heights": [
+              0,
+              1
+            ],
+            "nodes": [
+              1,
+              3
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            true,
+            true
+          ]
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      },
+      "python": {
+        "children": [
+          {
+            "expressions": [
+              "TIS",
+              "(- DT MRT)"
+            ],
+            "heights": [
+              0,
+              1
+            ],
+            "nodes": [
+              1,
+              3
+            ]
+          },
+          {
+            "expressions": [
+              "NIQ",
+              "(+ PT UT)"
+            ],
+            "heights": [
+              0,
+              1
+            ],
+            "nodes": [
+              1,
+              3
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            true,
+            true
+          ]
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      }
+    },
+    {
+      "case_id": "cross-019",
+      "passed": true,
+      "java": {
+        "children": [
+          {
+            "expressions": [
+              "TIS",
+              "DT"
+            ],
+            "heights": [
+              0,
+              0
+            ],
+            "nodes": [
+              1,
+              1
+            ]
+          },
+          {
+            "expressions": [
+              "NIQ",
+              "(+ PT UT)"
+            ],
+            "heights": [
+              0,
+              1
+            ],
+            "nodes": [
+              1,
+              3
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            true,
+            false
+          ]
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      },
+      "python": {
+        "children": [
+          {
+            "expressions": [
+              "TIS",
+              "DT"
+            ],
+            "heights": [
+              0,
+              0
+            ],
+            "nodes": [
+              1,
+              1
+            ]
+          },
+          {
+            "expressions": [
+              "NIQ",
+              "(+ PT UT)"
+            ],
+            "heights": [
+              0,
+              1
+            ],
+            "nodes": [
+              1,
+              3
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            true,
+            false
+          ]
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      }
+    },
+    {
+      "case_id": "cross-020",
+      "passed": true,
+      "java": {
+        "children": [
+          {
+            "expressions": [
+              "TIS",
+              "(+ DT MRT)"
+            ],
+            "heights": [
+              0,
+              1
+            ],
+            "nodes": [
+              1,
+              3
+            ]
+          },
+          {
+            "expressions": [
+              "NIQ",
+              "PT"
+            ],
+            "heights": [
+              0,
+              0
+            ],
+            "nodes": [
+              1,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            false,
+            true
+          ]
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      },
+      "python": {
+        "children": [
+          {
+            "expressions": [
+              "TIS",
+              "(+ DT MRT)"
+            ],
+            "heights": [
+              0,
+              1
+            ],
+            "nodes": [
+              1,
+              3
+            ]
+          },
+          {
+            "expressions": [
+              "NIQ",
+              "PT"
+            ],
+            "heights": [
+              0,
+              0
+            ],
+            "nodes": [
+              1,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            false,
+            true
+          ]
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      }
+    },
+    {
+      "case_id": "cross-021",
+      "passed": true,
+      "java": {
+        "children": [
+          {
+            "expressions": [
+              "TIS",
+              "(+ (+ (+ (+ (+ (+ PT UT) UT) UT) UT) UT) (+ (+ (+ PT PT) (+ PT PT)) (+ (+ PT PT) (+ PT PT))))"
+            ],
+            "heights": [
+              0,
+              6
+            ],
+            "nodes": [
+              1,
+              27
+            ]
+          },
+          {
+            "expressions": [
+              "NIQ",
+              "(+ (+ (+ (+ (+ (+ (+ PT PT) (+ PT PT)) (+ (+ PT PT) (+ PT PT))) UT) UT) UT) UT)"
+            ],
+            "heights": [
+              0,
+              7
+            ],
+            "nodes": [
+              1,
+              23
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            false,
+            false
+          ]
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      },
+      "python": {
+        "children": [
+          {
+            "expressions": [
+              "TIS",
+              "(+ (+ (+ (+ (+ (+ PT UT) UT) UT) UT) UT) (+ (+ (+ PT PT) (+ PT PT)) (+ (+ PT PT) (+ PT PT))))"
+            ],
+            "heights": [
+              0,
+              6
+            ],
+            "nodes": [
+              1,
+              27
+            ]
+          },
+          {
+            "expressions": [
+              "NIQ",
+              "(+ (+ (+ (+ (+ (+ (+ PT PT) (+ PT PT)) (+ (+ PT PT) (+ PT PT))) UT) UT) UT) UT)"
+            ],
+            "heights": [
+              0,
+              7
+            ],
+            "nodes": [
+              1,
+              23
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            false,
+            false
+          ]
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      }
+    },
+    {
+      "case_id": "cross-022",
+      "passed": true,
+      "java": {
+        "children": [
+          {
+            "expressions": [
+              "TIS",
+              "(+ (- MRT NIQ) (* UT DT))"
+            ],
+            "heights": [
+              0,
+              2
+            ],
+            "nodes": [
+              1,
+              7
+            ]
+          },
+          {
+            "expressions": [
+              "NIQ",
+              "PT"
+            ],
+            "heights": [
+              0,
+              0
+            ],
+            "nodes": [
+              1,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            true,
+            true
+          ]
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      },
+      "python": {
+        "children": [
+          {
+            "expressions": [
+              "TIS",
+              "(+ (- MRT NIQ) (* UT DT))"
+            ],
+            "heights": [
+              0,
+              2
+            ],
+            "nodes": [
+              1,
+              7
+            ]
+          },
+          {
+            "expressions": [
+              "NIQ",
+              "PT"
+            ],
+            "heights": [
+              0,
+              0
+            ],
+            "nodes": [
+              1,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            true,
+            true
+          ]
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      }
+    },
+    {
+      "case_id": "cross-023",
+      "passed": true,
+      "java": {
+        "children": [
+          {
+            "expressions": [
+              "TIS",
+              "DT"
+            ],
+            "heights": [
+              0,
+              0
+            ],
+            "nodes": [
+              1,
+              1
+            ]
+          },
+          {
+            "expressions": [
+              "NIQ",
+              "(+ (+ (+ (+ (+ (+ (+ PT UT) UT) UT) UT) UT) UT) UT)"
+            ],
+            "heights": [
+              0,
+              7
+            ],
+            "nodes": [
+              1,
+              15
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            false,
+            true
+          ],
+          [
+            true,
+            false
+          ]
+        ],
+        "attempts": 2,
+        "parents_unchanged": true,
+        "disjoint": true
+      },
+      "python": {
+        "children": [
+          {
+            "expressions": [
+              "TIS",
+              "DT"
+            ],
+            "heights": [
+              0,
+              0
+            ],
+            "nodes": [
+              1,
+              1
+            ]
+          },
+          {
+            "expressions": [
+              "NIQ",
+              "(+ (+ (+ (+ (+ (+ (+ PT UT) UT) UT) UT) UT) UT) UT)"
+            ],
+            "heights": [
+              0,
+              7
+            ],
+            "nodes": [
+              1,
+              15
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            false,
+            true
+          ],
+          [
+            true,
+            false
+          ]
+        ],
+        "attempts": 2,
+        "parents_unchanged": true,
+        "disjoint": true
+      }
+    },
+    {
+      "case_id": "cross-024",
+      "passed": true,
+      "java": {
+        "children": [
+          {
+            "expressions": [
+              "TIS",
+              "(+ DT MRT)"
+            ],
+            "heights": [
+              0,
+              1
+            ],
+            "nodes": [
+              1,
+              3
+            ]
+          },
+          {
+            "expressions": [
+              "NIQ",
+              "(+ (+ (+ (+ (+ (+ (+ PT UT) UT) UT) UT) UT) UT) UT)"
+            ],
+            "heights": [
+              0,
+              7
+            ],
+            "nodes": [
+              1,
+              15
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            false,
+            true
+          ],
+          [
+            true,
+            true
+          ]
+        ],
+        "attempts": 2,
+        "parents_unchanged": true,
+        "disjoint": true
+      },
+      "python": {
+        "children": [
+          {
+            "expressions": [
+              "TIS",
+              "(+ DT MRT)"
+            ],
+            "heights": [
+              0,
+              1
+            ],
+            "nodes": [
+              1,
+              3
+            ]
+          },
+          {
+            "expressions": [
+              "NIQ",
+              "(+ (+ (+ (+ (+ (+ (+ PT UT) UT) UT) UT) UT) UT) UT)"
+            ],
+            "heights": [
+              0,
+              7
+            ],
+            "nodes": [
+              1,
+              15
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            false,
+            true
+          ],
+          [
+            true,
+            true
+          ]
+        ],
+        "attempts": 2,
+        "parents_unchanged": true,
+        "disjoint": true
+      }
+    },
+    {
+      "case_id": "cross-025",
+      "passed": true,
+      "java": {
+        "children": [
+          {
+            "expressions": [
+              "TIS",
+              "(+ DT MRT)"
+            ],
+            "heights": [
+              0,
+              1
+            ],
+            "nodes": [
+              1,
+              3
+            ]
+          },
+          {
+            "expressions": [
+              "NIQ",
+              "PT"
+            ],
+            "heights": [
+              0,
+              0
+            ],
+            "nodes": [
+              1,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            false,
+            true
+          ],
+          [
+            false,
+            true
+          ]
+        ],
+        "attempts": 2,
+        "parents_unchanged": true,
+        "disjoint": true
+      },
+      "python": {
+        "children": [
+          {
+            "expressions": [
+              "TIS",
+              "(+ DT MRT)"
+            ],
+            "heights": [
+              0,
+              1
+            ],
+            "nodes": [
+              1,
+              3
+            ]
+          },
+          {
+            "expressions": [
+              "NIQ",
+              "PT"
+            ],
+            "heights": [
+              0,
+              0
+            ],
+            "nodes": [
+              1,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            false,
+            true
+          ],
+          [
+            false,
+            true
+          ]
+        ],
+        "attempts": 2,
+        "parents_unchanged": true,
+        "disjoint": true
+      }
+    },
+    {
+      "case_id": "cross-026",
+      "passed": true,
+      "java": {
+        "children": [
+          {
+            "expressions": [
+              "TIS",
+              "DT"
+            ],
+            "heights": [
+              0,
+              0
+            ],
+            "nodes": [
+              1,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            true
+          ]
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      },
+      "python": {
+        "children": [
+          {
+            "expressions": [
+              "TIS",
+              "DT"
+            ],
+            "heights": [
+              0,
+              0
+            ],
+            "nodes": [
+              1,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            true
+          ]
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      }
+    },
+    {
+      "case_id": "cross-027",
+      "passed": true,
+      "java": {
+        "children": [
+          {
+            "expressions": [
+              "TIS",
+              "(+ DT MRT)"
+            ],
+            "heights": [
+              0,
+              1
+            ],
+            "nodes": [
+              1,
+              3
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            false
+          ],
+          [
+            false
+          ]
+        ],
+        "attempts": 2,
+        "parents_unchanged": true,
+        "disjoint": true
+      },
+      "python": {
+        "children": [
+          {
+            "expressions": [
+              "TIS",
+              "(+ DT MRT)"
+            ],
+            "heights": [
+              0,
+              1
+            ],
+            "nodes": [
+              1,
+              3
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            false
+          ],
+          [
+            false
+          ]
+        ],
+        "attempts": 2,
+        "parents_unchanged": true,
+        "disjoint": true
+      }
+    },
+    {
+      "case_id": "cross-028",
+      "passed": true,
+      "java": {
+        "children": [
+          {
+            "expressions": [
+              "(Max TIS NTR)",
+              "(Min NIQ WIQ)"
+            ],
+            "heights": [
+              1,
+              1
+            ],
+            "nodes": [
+              3,
+              3
+            ]
+          },
+          {
+            "expressions": [
+              "(+ PT UT)",
+              "(- DT MRT)"
+            ],
+            "heights": [
+              1,
+              1
+            ],
+            "nodes": [
+              3,
+              3
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            true,
+            true
+          ]
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      },
+      "python": {
+        "children": [
+          {
+            "expressions": [
+              "(Max TIS NTR)",
+              "(Min NIQ WIQ)"
+            ],
+            "heights": [
+              1,
+              1
+            ],
+            "nodes": [
+              3,
+              3
+            ]
+          },
+          {
+            "expressions": [
+              "(+ PT UT)",
+              "(- DT MRT)"
+            ],
+            "heights": [
+              1,
+              1
+            ],
+            "nodes": [
+              3,
+              3
+            ]
+          }
+        ],
+        "legal_history": [
+          [
+            true,
+            true
+          ]
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      }
+    },
+    {
+      "case_id": "mutation-029",
+      "passed": true,
+      "java": {
+        "children": [
+          {
+            "expressions": [
+              "NIQ",
+              "DT"
+            ],
+            "heights": [
+              0,
+              0
+            ],
+            "nodes": [
+              1,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          true
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      },
+      "python": {
+        "children": [
+          {
+            "expressions": [
+              "NIQ",
+              "DT"
+            ],
+            "heights": [
+              0,
+              0
+            ],
+            "nodes": [
+              1,
+              1
+            ]
+          }
+        ],
+        "legal_history": [
+          true
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      }
+    },
+    {
+      "case_id": "mutation-030",
+      "passed": true,
+      "java": {
+        "children": [
+          {
+            "expressions": [
+              "NIQ",
+              "(+ DT UT)"
+            ],
+            "heights": [
+              0,
+              1
+            ],
+            "nodes": [
+              1,
+              3
+            ]
+          }
+        ],
+        "legal_history": [
+          true
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      },
+      "python": {
+        "children": [
+          {
+            "expressions": [
+              "NIQ",
+              "(+ DT UT)"
+            ],
+            "heights": [
+              0,
+              1
+            ],
+            "nodes": [
+              1,
+              3
+            ]
+          }
+        ],
+        "legal_history": [
+          true
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      }
+    },
+    {
+      "case_id": "mutation-031",
+      "passed": true,
+      "java": {
+        "children": [
+          {
+            "expressions": [
+              "NIQ",
+              "(+ (+ DT UT) UT)"
+            ],
+            "heights": [
+              0,
+              2
+            ],
+            "nodes": [
+              1,
+              5
+            ]
+          }
+        ],
+        "legal_history": [
+          true
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      },
+      "python": {
+        "children": [
+          {
+            "expressions": [
+              "NIQ",
+              "(+ (+ DT UT) UT)"
+            ],
+            "heights": [
+              0,
+              2
+            ],
+            "nodes": [
+              1,
+              5
+            ]
+          }
+        ],
+        "legal_history": [
+          true
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      }
+    },
+    {
+      "case_id": "mutation-032",
+      "passed": true,
+      "java": {
+        "children": [
+          {
+            "expressions": [
+              "NIQ",
+              "(+ (+ (+ DT UT) UT) UT)"
+            ],
+            "heights": [
+              0,
+              3
+            ],
+            "nodes": [
+              1,
+              7
+            ]
+          }
+        ],
+        "legal_history": [
+          true
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      },
+      "python": {
+        "children": [
+          {
+            "expressions": [
+              "NIQ",
+              "(+ (+ (+ DT UT) UT) UT)"
+            ],
+            "heights": [
+              0,
+              3
+            ],
+            "nodes": [
+              1,
+              7
+            ]
+          }
+        ],
+        "legal_history": [
+          true
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      }
+    },
+    {
+      "case_id": "mutation-033",
+      "passed": true,
+      "java": {
+        "children": [
+          {
+            "expressions": [
+              "NIQ",
+              "(+ (+ (+ (+ (+ (+ (+ PT UT) UT) UT) UT) UT) UT) UT)"
+            ],
+            "heights": [
+              0,
+              7
+            ],
+            "nodes": [
+              1,
+              15
+            ]
+          }
+        ],
+        "legal_history": [
+          false
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      },
+      "python": {
+        "children": [
+          {
+            "expressions": [
+              "NIQ",
+              "(+ (+ (+ (+ (+ (+ (+ PT UT) UT) UT) UT) UT) UT) UT)"
+            ],
+            "heights": [
+              0,
+              7
+            ],
+            "nodes": [
+              1,
+              15
+            ]
+          }
+        ],
+        "legal_history": [
+          false
+        ],
+        "attempts": 1,
+        "parents_unchanged": true,
+        "disjoint": true
+      }
+    },
+    {
+      "case_id": "mutation-034",
+      "passed": true,
+      "java": {
+        "children": [
+          {
+            "expressions": [
+              "NIQ",
+              "(+ (+ (+ (+ (+ (+ (+ DT UT) UT) UT) UT) UT) UT) UT)"
+            ],
+            "heights": [
+              0,
+              7
+            ],
+            "nodes": [
+              1,
+              15
+            ]
+          }
+        ],
+        "legal_history": [
+          false,
+          true
+        ],
+        "attempts": 2,
+        "parents_unchanged": true,
+        "disjoint": true
+      },
+      "python": {
+        "children": [
+          {
+            "expressions": [
+              "NIQ",
+              "(+ (+ (+ (+ (+ (+ (+ DT UT) UT) UT) UT) UT) UT) UT)"
+            ],
+            "heights": [
+              0,
+              7
+            ],
+            "nodes": [
+              1,
+              15
+            ]
+          }
+        ],
+        "legal_history": [
+          false,
+          true
+        ],
+        "attempts": 2,
+        "parents_unchanged": true,
+        "disjoint": true
+      }
+    },
+    {
+      "case_id": "mutation-035",
+      "passed": true,
+      "java": {
+        "children": [
+          {
+            "expressions": [
+              "NIQ",
+              "(+ (+ (+ (+ (+ (+ (+ PT UT) UT) UT) UT) UT) UT) UT)"
+            ],
+            "heights": [
+              0,
+              7
+            ],
+            "nodes": [
+              1,
+              15
+            ]
+          }
+        ],
+        "legal_history": [
+          false,
+          false
+        ],
+        "attempts": 2,
+        "parents_unchanged": true,
+        "disjoint": true
+      },
+      "python": {
+        "children": [
+          {
+            "expressions": [
+              "NIQ",
+              "(+ (+ (+ (+ (+ (+ (+ PT UT) UT) UT) UT) UT) UT) UT)"
+            ],
+            "heights": [
+              0,
+              7
+            ],
+            "nodes": [
+              1,
+              15
+            ]
+          }
+        ],
+        "legal_history": [
+          false,
+          false
+        ],
+        "attempts": 2,
+        "parents_unchanged": true,
+        "disjoint": true
+      }
+    },
+    {
+      "case_id": "initialize-036",
+      "passed": true,
+      "java": {
+        "trees": [
+          {
+            "role": "sequencing",
+            "expression": "NTR",
+            "height": 0,
+            "nodes": 1
+          },
+          {
+            "role": "routing",
+            "expression": "(+ PT UT)",
+            "height": 1,
+            "nodes": 3
+          }
+        ]
+      },
+      "python": {
+        "trees": [
+          {
+            "role": "sequencing",
+            "expression": "NTR",
+            "height": 0,
+            "nodes": 1
+          },
+          {
+            "role": "routing",
+            "expression": "(+ PT UT)",
+            "height": 1,
+            "nodes": 3
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "initialize-037",
+      "passed": true,
+      "java": {
+        "trees": [
+          {
+            "role": "sequencing",
+            "expression": "(* NIQ WIQ)",
+            "height": 1,
+            "nodes": 3
+          },
+          {
+            "role": "routing",
+            "expression": "TWT",
+            "height": 0,
+            "nodes": 1
+          }
+        ]
+      },
+      "python": {
+        "trees": [
+          {
+            "role": "sequencing",
+            "expression": "(* NIQ WIQ)",
+            "height": 1,
+            "nodes": 3
+          },
+          {
+            "role": "routing",
+            "expression": "TWT",
+            "height": 0,
+            "nodes": 1
+          }
+        ]
+      }
+    }
+  ],
+  "scope": "J04 dual original pipeline four combinations/both roles, tails/retries/parent preservation/clone isolation; both mutation roles; actual two-tree HalfBuilder initialization"
+}

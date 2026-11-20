@@ -1,0 +1,85 @@
+{
+  "scale": "medium",
+  "devices": 1,
+  "trial": 3,
+  "search_seed": 50003,
+  "mtgp_reference": "pilot/medium-1-trial-03.json",
+  "history": [
+    {
+      "generation": 0,
+      "instance_seed": 1200000,
+      "evaluated": 8,
+      "best": [
+        "(Min NTR DT)",
+        "(- TTIQ TIS)"
+      ],
+      "makespan": 4180.487819244141
+    },
+    {
+      "generation": 1,
+      "instance_seed": 1200001,
+      "evaluated": 7,
+      "best": [
+        "(/ TWT NIQ)",
+        "(- WIQ TIS)"
+      ],
+      "makespan": 3916.647813393067
+    },
+    {
+      "generation": 2,
+      "instance_seed": 1200002,
+      "evaluated": 5,
+      "best": [
+        "(/ (Max MRT PT) (* WIQ PT))",
+        "NIQ"
+      ],
+      "makespan": 3988.871331164036
+    }
+  ],
+  "validation_seeds": [
+    80000,
+    80001,
+    80002
+  ],
+  "validation": [
+    {
+      "pair": [
+        "(/ TWT NIQ)",
+        "(- WIQ TIS)"
+      ],
+      "makespans": [
+        4170.615688619329,
+        4676.924485652298,
+        4050.234866778823
+      ]
+    },
+    {
+      "pair": [
+        "(/ (Max MRT PT) (* WIQ PT))",
+        "NIQ"
+      ],
+      "makespans": [
+        4662.981431178757,
+        5298.609303691004,
+        4205.943134161105
+      ]
+    },
+    {
+      "pair": [
+        "(Min NTR DT)",
+        "(- TTIQ TIS)"
+      ],
+      "makespans": [
+        4944.891993994024,
+        5628.8147148353655,
+        4455.53511160872
+      ]
+    }
+  ],
+  "selected": {
+    "sequencing": "(/ TWT NIQ)",
+    "routing": "(- WIQ TIS)"
+  },
+  "training_calls": 20,
+  "validation_calls": 9
+}
