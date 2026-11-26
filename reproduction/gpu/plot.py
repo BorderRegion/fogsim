@@ -173,10 +173,14 @@ def plot(root, font=None):
             label=f"相同 {count} 个种子",
         )
         for lane, rate in zip(x, y, strict=True):
+            neighbors = [float(row["unique_per_s"]) for row in calibration if int(row["parallel"]) == lane]
+            offset = 8 if idx == 0 else -16
+            if len(neighbors) > 1:
+                offset = 8 if rate == max(neighbors) else -16
             d.annotate(
                 f"{rate:,.0f}",
                 (lane, rate),
-                xytext=(0, 8 if idx == 0 else -16),
+                xytext=(0, offset),
                 textcoords="offset points",
                 ha="center",
                 color=(BLUE, ORANGE)[idx],
